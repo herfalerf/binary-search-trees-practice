@@ -18,7 +18,7 @@ describe("insert", function () {
   });
 });
 
-//**Daniel** My recursive function with herlp will only work if tests are written this way, without chaining
+//**DANIEL** My recursive function with helper will only work if tests are written this way, without chaining.  Why?
 // describe("insertRecursively", function () {
 //   it("inserts a node at the correct position", function () {
 //     var binarySearchTree = new BinarySearchTree();
@@ -31,6 +31,7 @@ describe("insert", function () {
 //     expect(binarySearchTree.root.right.val).toEqual(20);
 //     expect(binarySearchTree.root.left.right.val).toEqual(12);
 //   });
+
 describe("insertRecursively", function () {
   it("inserts a node at the correct position", function () {
     var binarySearchTree = new BinarySearchTree();
